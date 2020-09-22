@@ -21,6 +21,7 @@ public class Product {
     @Column(name = "id")
     private Long id;
 
+    private ProductCategory category;
 
     @Column(name = "sku")
     private String sku;
